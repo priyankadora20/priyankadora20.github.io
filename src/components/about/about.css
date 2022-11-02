@@ -1,0 +1,32 @@
+.about__img {
+    margin-bottom: 1.5rem;
+    width:300px;
+    height:320px;
+    transform: rotate(10deg);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+ margin-top:50px;   
+ padding :1rem;
+ padding-bottom: 3rem;
+}
+.about__img_name{
+    text-align: center;
+    font-family:monospace
+}
+.section_title{
+    font-size: 40px;
+}
+.about__container{
+    grid-template-columns: 4fr 7fr;
+    column-gap: 1.875rem;;
+}
+.about__data {
+    padding :1.875rem;
+    background-color: var(--container-color);
+    
+    border-radius: var(--border-radius);
+    column-gap:1.875rem;
+    height: 300px;
+    margin-top: 60px;
+    align-items:flex-start;
+    position: relative;
+} 

@@ -1,0 +1,77 @@
+.services__container {
+    grid-template-columns: repeat(4,1fr);
+    column-gap:1.875rem;
+    align-items: center;
+    
+}
+.services__card {
+    width:300px;
+    text-align: center;
+    padding:1.875rem;
+    border-radius:var(--border-radius);
+    background-color:var(--container-color);
+    transition: all 0.5s ease-in-out;
+}
+.services__card:hover {
+    transform: translateY(-20px);
+}
+.services__card:nth-child(1){
+    background-color: rgb(135, 135, 250);
+    box-shadow:0px 5px 20px 0px rgb(108,108,229/50%);
+    color: white;
+
+}
+.services__card:nth-child(2){
+    background-color: rgb(249, 215, 76);
+    box-shadow:0px 5px 20px 0px rgb(239, 222, 87/50%);
+    color: white;
+
+}
+.services__card:nth-child(3){
+    background-color: rgb(249, 123, 139);
+    box-shadow:0px 5px 20px 0px rgb(249, 124, 139 /50%);
+    color: white;
+
+}
+.services__img {
+    margin-bottom :1.25rem;
+    height: 250px;
+
+}
+.services__github-a {
+    margin-top: 20px;
+
+    width:100px;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    height:50px;
+    border-radius: 20px;
+}
+.services__netlify-b {
+    width:100px;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    height:50px;
+    border-radius: 20px;
+    
+}
+.section__title {
+    font-size: 50px;
+}
+.services__github-a:hover {
+    width:110px;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    height:60px;
+    border-radius: 20px;
+    background-color: rgb(89, 250, 2);
+}
+
+.services__netlify-b:hover {
+    width:110px;
+    border: 1px solid transparent;
+    margin-right: 10px;
+    height:60px;
+    border-radius: 20px;
+    background-color: rgb(250, 134, 2);
+}

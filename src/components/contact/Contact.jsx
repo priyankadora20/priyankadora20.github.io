@@ -2,8 +2,7 @@ import React from 'react'
 import "./contact.css"
 
 const Contact = () => {
-  return 
-  (
+  return (
     <div>Contact</div>
   )
 }
