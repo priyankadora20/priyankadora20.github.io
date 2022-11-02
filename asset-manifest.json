@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.328ab46b.js",
+    "main.css": "/static/css/main.65d699d2.css",
+    "main.js": "/static/js/main.51aea00f.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/monsterIndia.webp": "/static/media/monsterIndia.01c8f859b024674c07ee.webp",
+    "static/media/tripvilla.jpg": "/static/media/tripvilla.2fae58cb9e11d997f7cb.jpg",
+    "static/media/Me.jpg": "/static/media/Me.b1603c5b1bc1022f8c6e.jpg",
+    "static/media/coshedule.jpg": "/static/media/coshedule.35afde9373539a74fdf0.jpg",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.328ab46b.js.map": "/static/js/main.328ab46b.js.map",
+    "main.65d699d2.css.map": "/static/css/main.65d699d2.css.map",
+    "main.51aea00f.js.map": "/static/js/main.51aea00f.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.328ab46b.js"
+    "static/css/main.65d699d2.css",
+    "static/js/main.51aea00f.js"
   ]
 }
