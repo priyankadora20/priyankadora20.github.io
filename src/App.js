@@ -6,9 +6,7 @@ import Services from './components/services/Services';
 import Resume from './components/resume/Resume';
 import Skills from './components/skills/Skills';
 import Contact from './components/contact/Contact';
-import Testimonials from './components/testimonials/Testimonials';
-import Pricing from './components/pricing/Pricing';
-import Blog from './components/blog/Blog';
+import Git from './components/git/Git';
 
 function App() {
   return (
@@ -21,9 +19,8 @@ function App() {
         <Resume />
         <Services/>
         <Skills />
-        <Testimonials/>
-        <Pricing />
-        <Blog />
+        
+        <Git />
         <Contact />
         
       </main>

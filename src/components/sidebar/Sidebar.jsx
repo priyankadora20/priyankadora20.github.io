@@ -1,7 +1,7 @@
 import React from 'react';
 import "./sidebar.css";
 import Me from "../../assets/Me.jpg"
-
+import { Link } from "react-scroll";
 
 const Sidebar =() =>{
     return (
@@ -37,33 +37,51 @@ const Sidebar =() =>{
                         <p className="hide">Education</p>
                        </li>
 
+                    <li className='nav__item'>
+                    <Link
+                        className="nav__link"
+                        to="services"
+                         spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={400}>
+                    
+                    <a href="#services"></a>
+                    <i className="icon-briefcase"></i>
+                    </Link>
+                    <p className="hide">Projects</p>
+                    </li>
+                  
+                    <li className='nav__item'>
+                    <Link
+                        className="nav__link"
+                        to="skills"
+                         spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={400}>
+                    <i className="icon-layers"></i>
+                    </Link>
+                    <p className="hide">Skills</p>
+                    </li>
+
+                    <li className='nav__item'>
+                    <Link
+                        className="nav__link"
+                        to="blog"
+                         spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={400}>
+                    <i className="icon-note"></i>
+                    
+                    </Link>
+                    <p className="hide">Git Statistics</p>
+                    </li>
+                  
+
                        <li className='nav__item'>
-                        <a href ="#services" className='nav__link'>
-                        <i className="icon-briefcase"></i>
-
-                        </a>
-                        <p className="hide">Projects</p>
-                       
-                       </li>
-
-                      
-
-                       <li className='nav__item'>
-                        <a href ="#portfolio" className='nav__link'>
-                        <i className="icon-layers"></i>
-                        </a>
-                        <p className="hide">Skills</p>
-                       </li>
-
-                       <li className='nav__item'>
-                        <a href ="#blog" className='nav__link'>
-                        <i className="icon-note"></i>
-                        </a>
-                        <p className="hide">Stats</p>
                         
-                       </li>
-
-                       <li className='nav__item'>
                         <a href ="#contact" className='nav__link'>
                         <i className="icon-bubble"></i>
                         </a>
