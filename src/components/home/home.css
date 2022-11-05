@@ -1,13 +1,14 @@
 .home {
-
+    margin-top: 40px;
     position :relative;
     height:700px;
     display:flex;
     align-items: center;
     justify-content:center;
-   
+   background-image: url(`https://img.freepik.com/free-vector/yellow-with-clouds-design_1017-30894.jpg?w=2000`);
 
 }
+
 .intro {
 
     max-width:540px;
@@ -34,7 +35,7 @@
 
 .home__social-link {
     color: var(--title-color);
-    font-size:1.3rem;
+    font-size:2rem;
     transition :0.3s;
 }
 
@@ -95,4 +96,8 @@ color:goldenrod;
 
 .btn:hover {
     background-color: goldenrod;
+}
+
+#moving{
+    margin-right: -140px;
 }

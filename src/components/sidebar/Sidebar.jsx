@@ -2,6 +2,7 @@ import React from 'react';
 import "./sidebar.css";
 import Me from "../../assets/Me.jpg"
 import { Link } from "react-scroll";
+import Toggle from "../Toggle/Toggle";
 
 const Sidebar =() =>{
     return (
@@ -87,8 +88,11 @@ const Sidebar =() =>{
                         </a>
                         <p className="hide">contact</p>
                        </li>
-
-
+                        
+                        <li>
+                            <Toggle/>
+                        </li>
+                        
 
                     </ul>
 

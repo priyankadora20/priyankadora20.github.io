@@ -15,6 +15,7 @@ const Contact = () => {
 
         <h3 className="contact__title">Let talk about everything!</h3>
         <p className="contact__details">Send me an email.👋</p>
+        <img src="https://media.tenor.com/0ceXa2Dg8ywAAAAC/email-sent.gif" alt="sent img" />
 
       </div>
       
@@ -23,30 +24,30 @@ const Contact = () => {
             <div className="contact__form-group">
               <div className="contact__form-div">
                 <input type="text" className="contact__form-input" 
-                placeholder='Insert your name' />
+                placeholder='Your name' />
 
               </div>
 
               <div className="contact__form-div">
                 <input type="email" className="contact__form-input" 
-                placeholder='Insert your email' />
+                placeholder='Your email' />
 
               </div>
 
               <div className="contact__form-div">
                 <input type="text" className="contact__form-input" 
-                placeholder='Insert your subject' />
+                placeholder='Subject' />
 
               </div>
 
-              <div className="contact__form-div">
+              <div className="contact__form-div contact__form-area">
                 <textarea name="" id="" cols="30" rows="10"
                 className='contact__form-input' placeholder='Write Your message'>
 
                 </textarea>
 
               </div>
-              <button className="btn">Send</button>
+              <button className="btn" id='btnsend'>Send</button>
 
               
 

@@ -8,6 +8,7 @@
  padding :1rem;
  padding-bottom: 3rem;
 }
+
 .about__img_name{
     text-align: center;
     font-family:monospace
@@ -16,7 +17,7 @@
     font-size: 40px;
 }
 .about__container{
-    grid-template-columns: 4fr 7fr;
+    grid-template-columns:3fr 5fr;
     column-gap: 1.875rem;;
 }
 .about__data {
@@ -30,3 +31,12 @@
     align-items:flex-start;
     position: relative;
 } 
+#hello{
+    margin-top: -50px;
+    font-size:50px;
+}
+#intro{
+    font-size:25px;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}

@@ -4,16 +4,22 @@
     padding:1.875rem;
     border-radius: var(--border-radius);
     position:relative;
-    box-shadow: var(--shadow);
-   
+    
+    width:90%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    gap:1.5rem;
 
+}.timeline:hover{
+    box-shadow: var(--shadow);
 }
 .timeline__item {
     background-color: rgb(230, 248, 252);
     position:relative;
     padding-left:3.125;
     padding-bottom: 3.125rem;
-    
+    width:100%;
     padding:1.875rem;
     
     border-radius: 25px;
@@ -21,14 +27,13 @@
 }
 .timeline__item:hover {
     position:relative;
-    padding-left:3.125;
-    padding-bottom: 3.125rem;
+
     box-shadow: var(--shadow);
     
     background-color: goldenrod;
     color: white;
     border-radius: 25px;
-    font-size: 18px;
+    font-size: 15px;
 }
 .timeline__item::before{
     content:'';

@@ -28,8 +28,17 @@ const data =[
     id:3,
     image: coshedule,
     title:"CoShedule Clone",
-    about:"CoSchedule Marketing Calendar is the only marketing calendar that lets you plan all your marketing projects and write, schedule, and publish your social messages in the same place.",
-    description :"Tech-Stack : React.js,redux,chakra,api",
+    about:"CoSchedule Marketing Calendar that lets you plan all your marketing projects and write, schedule, and publish your social messages .",
+    description :"Tech-Stack : React.js,redux,chakra-UI",
+    git:``,
+    netlify:``
+  },
+  {
+    id:3,
+    image: coshedule,
+    title:"CoShedule Clone",
+    about:"CoSchedule Marketing Calendar that lets you plan all your marketing projects and write, schedule, and publish your social messages .",
+    description :"Tech-Stack : React.js,redux,chakra-UI",
     git:``,
     netlify:``
   }

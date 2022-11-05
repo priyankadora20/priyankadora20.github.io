@@ -2,7 +2,7 @@ import React from 'react'
 import "./home.css";
 import Me from "../../assets/Me.jpg"
 import { HeaderSocials } from './HeaderSocials';
-import { ScrollDown } from './ScrollDown';
+
 
 
 const Home = () => {
@@ -13,13 +13,13 @@ const Home = () => {
         <img src={Me} alt="" className='home__img' />
        
         <h1 className="home__name">Priyanka Dora</h1>
-        <span className="home__education">I'm a Full-Stack Developer</span>
-      
+        
+        <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=500&color=teal&width=600&height=80&lines=I'm+Full+Stack+Developer" alt="Typing SVG" id='moving'/></a>
       <HeaderSocials />
       
       <a href="#contact" className="btn">Hire Me</a>
 
-      <ScrollDown />
+      
       </div>
 
     </section>
