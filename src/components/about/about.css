@@ -19,7 +19,7 @@
 }
 .about__container{
     grid-template-columns:3fr 5fr;
-    column-gap: 1.875rem;;
+    column-gap: 1.875rem;
 }
 .about__data {
     padding :1.875rem;
@@ -47,4 +47,15 @@
 }
 .about__info{
     margin-top: -50px;
+}
+
+
+@media screen and (max-width:1024px){
+    
+   .about__container{
+   grid-template-columns: 720px;
+   justify-content:centre;
+   
+   }
+
 }

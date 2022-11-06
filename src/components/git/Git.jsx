@@ -1,11 +1,49 @@
 import React from 'react'
 import "./git.css"
+import GitHubCalendar from 'react-github-calendar';
+import ReactTooltip from 'react-tooltip';
+import Stats from './Stats';
+
 
 const Git = () => {
+  const selectLastHalfYear = contributions => {
+    const currentYear = new Date().getFullYear();
+    const currentMonth = new Date().getMonth();
+    const shownMonths = 6;
+  
+    return contributions.filter(day => {
+      const date = new Date(day.date);
+      const monthOfDay = date.getMonth();
+  
+      return (
+        date.getFullYear() === currentYear &&
+        monthOfDay > currentMonth - shownMonths &&
+        monthOfDay <= currentMonth
+      );
+    });
+  };
+
   return (
     
-      <h1>git hub</h1>
-   
+    <section className="git container section">
+ <h1 className="section__title grid">Git Hub</h1>
+      <div id='gitcalender'>
+      <GitHubCalendar 
+      style={{margin:'auto'}}
+      username="priyankadora20"
+      transform={selectLastHalfYear}
+      blockSize={20}
+      fontSize={20}
+      >
+        <ReactTooltip delayShow={20}/>
+      </GitHubCalendar>
+      </div>
+      <Stats/>
+      
+    </section>
+     
+    
+  
   )
 }
 

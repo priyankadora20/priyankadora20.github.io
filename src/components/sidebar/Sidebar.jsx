@@ -72,7 +72,7 @@ const Sidebar =() =>{
                     <li className='nav__item'>
                     <Link
                         className="nav__link"
-                        to="blog"
+                        to="git"
                          spy={true}
                         smooth={true}
                         offset={-70}
@@ -82,6 +82,10 @@ const Sidebar =() =>{
                     </Link>
                     <p className="hide">Github</p>
                     </li>
+
+
+
+
                   
 
                        <li className='nav__item'>
@@ -114,6 +118,9 @@ const Sidebar =() =>{
         
         <div className="nav__footer">
             <span className='copyright'>Priyanka Dora</span>
+        </div>
+        <div className="nav__toggle">
+            <i className="icon-menu"></i>
         </div>
 
         </aside>

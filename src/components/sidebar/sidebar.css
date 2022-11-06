@@ -46,3 +46,25 @@
     display:inline;
     color: lightslategray;
 }
+.nav__toggle{
+    position:fixed;
+    top:1.25rem;
+    left:1.85rem;
+    cursor:pointer;
+    height:40px;
+    width:45px;
+    background-color: var(--body-color);
+    border: 1px solid #e8dfec;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    z-index:1;
+}
+
+
+@media screen and (max-width:1024px){
+    .aside{
+        left: -110px;
+    }
+ 
+}

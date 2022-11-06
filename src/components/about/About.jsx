@@ -26,7 +26,7 @@ const About = () => {
       <div className="about__info">
        <h4 className="description">
         
-        <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=40&pause=500&color=teal&width=700&height=70&lines=HELLO  Welcome.." alt="Typing SVG" id='moving'/></a>
+        <a href=""><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=40&pause=500&color=teal&width=700&height=70&lines=HELLO  Welcome.." alt="Typing SVG" id='moving'/></a>
         
 
         <br>

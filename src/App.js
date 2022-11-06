@@ -18,8 +18,7 @@ function App() {
         <About/>
         <Resume />
         <Services/>
-        <Skills />
-        
+        <Skills />       
         <Git />
         <Contact />
         
