@@ -23,6 +23,7 @@ function App() {
         <Git />
         <Contact />
         
+        
       </main>
     </div>
   );

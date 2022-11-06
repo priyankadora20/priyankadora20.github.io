@@ -14,6 +14,7 @@
   /*--font size*/
   --body-font:"Rubik" ,sans-serif;
   --h1-font-size: 4.00rem;
+  
   --h2-font-size: 2.75rem;
   --h3-font-size: 1.25rem;
   --normal-font-size: 1rem;
@@ -40,7 +41,7 @@
   margin:0;
   padding: 0;
   box-sizing:border-box;
-  background-image: url("");
+ 
   background-repeat: no-repeat;
 }
 html {
@@ -143,7 +144,7 @@ margin-top: 40px;
 }
 
 .btn :hover {
- 
+
   animation: button-push 0.3s liner 1;
 }
 

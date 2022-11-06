@@ -4,37 +4,39 @@
     align-items: center;
     
 }
+#project{
+    margin-top: -100px;
+}
 .services__card {
     width:300px;
     text-align: center;
-    padding:1.875rem;
+    padding:0.7rem;
     border-radius:var(--border-radius);
     background-color:var(--container-color);
     transition: all 0.5s ease-in-out;
 }
-.services__card:hover {
-    transform: translateY(-20px);
-}
+
 .services__card:nth-child(1){
-    background-color: rgb(135, 135, 250);
+    background-color: var(--first-color);
     box-shadow:0px 5px 20px 0px rgb(108,108,229/50%);
     color: white;
+    
 
 }
 .services__card:nth-child(2){
-    background-color: rgb(249, 215, 76);
+    background-color:var(--first-color);
     box-shadow:0px 5px 20px 0px rgb(239, 222, 87/50%);
     color: white;
 
 }
 .services__card:nth-child(3){
-    background-color: rgb(249, 123, 139);
+    background-color:var(--first-color);
     box-shadow:0px 5px 20px 0px rgb(249, 124, 139 /50%);
     color: white;
 
 }
 .services__card:nth-child(4){
-    background-color: rgb(175, 249, 38);
+    background-color:var(--first-color);
     box-shadow:0px 5px 20px 0px rgb(249, 124, 139 /50%);
     color: white;
 
@@ -42,6 +44,9 @@
 .services__img {
     margin-bottom :1.25rem;
     height: 250px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 
 }
 .services__github-a {
@@ -70,7 +75,7 @@
     margin-right: 10px;
     height:60px;
     border-radius: 20px;
-    background-color: rgb(89, 250, 2);
+   
 }
 
 .services__netlify-b:hover {
@@ -79,5 +84,48 @@
     margin-right: 10px;
     height:60px;
     border-radius: 20px;
-    background-color: rgb(250, 134, 2);
+   
 }
+
+.fa-gitgit{
+   font-size: 2rem;
+   color: bisque;
+   padding-bottom: 20px;
+}
+.fa-globe{
+    font-size: 2rem;
+    padding-left: 50px;
+    padding-top: 30px;
+    color: bisque;
+}
+.services__card:hover {
+    transform: translateY(-15px);
+    background-color: goldenrod;
+    color: black;
+}
+.fa-gitgit:hover{
+    font-size: 2rem;
+    
+    color: black;
+ }
+ .fa-globe:hover{
+     font-size: 2rem;
+     padding-left: 50px;
+     padding-top: 30px;
+    
+     color: black;
+ }
+ .services__description{
+    margin-top:20px;
+    font-weight: 500;
+ }
+ .ptagabout{
+    width:90%;
+    margin: auto;
+   
+ }
+ #project{
+    margin-bottom: 20px;
+    margin-top: -90px;
+ }
+ 

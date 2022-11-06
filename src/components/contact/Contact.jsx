@@ -5,7 +5,7 @@ const Contact = () => {
   return (
    <section className="contact container section" id="contact">
 
-   <h2 className="section__title">Get In touch</h2>
+   <h2 className="section__title" id='contactsmall'>Get In Touch</h2>
 
     <div className="contact__container grid">
 
@@ -15,6 +15,8 @@ const Contact = () => {
 
         <h3 className="contact__title">Let talk about everything!</h3>
         <p className="contact__details">Send me an email.👋</p>
+        <p>Email : dora1234priyanka@gmail.com</p>
+        <p>Contact no :+91-6370503243</p>
         <img src="https://media.tenor.com/0ceXa2Dg8ywAAAAC/email-sent.gif" alt="sent img" />
 
       </div>

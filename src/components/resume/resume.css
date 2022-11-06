@@ -7,21 +7,21 @@
     
     width:90%;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(4,1fr);
     align-items: center;
-    gap:1.5rem;
-
-}.timeline:hover{
-    box-shadow: var(--shadow);
+    gap:2rem;
+    margin: auto;
 }
 .timeline__item {
-    background-color: rgb(230, 248, 252);
+    background-color:var(--first-color);
     position:relative;
     padding-left:3.125;
     padding-bottom: 3.125rem;
     width:100%;
     padding:1.875rem;
-    
+    color: white;
+    font-size: 15px;
+    height: 230px;
     border-radius: 25px;
     margin-bottom: 1rem;
 }
@@ -31,7 +31,7 @@
     box-shadow: var(--shadow);
     
     background-color: goldenrod;
-    color: white;
+    color:black;
     border-radius: 25px;
     font-size: 15px;
 }
@@ -41,17 +41,32 @@
     height:80%;
     background-color: var(--first-color);
     position: absolute;
-    left:.45rem;
+    left:1rem;
     top: 10%;
     border-radius: 20%;
+    background-color: white;
 }
 .timeline__item:hover::before{
     content:'';
     width:3px;
     height:80%; 
-    background-color: rgb(255, 255, 255);
+    background-color:black;
     position: absolute;
-    left:.45rem;
+    left:1rem;
     top: 10%;
     border-radius: 20%;
+}
+.section__title{
+    text-align: center;
+    margin-bottom: -15px;
+    margin-top: -20px;
+}
+#intern{
+    margin: auto;
+   border: 1px solid transparent;
+   width: 50%;
+}
+#intership{
+
+    grid-template-columns: repeat(2,1fr);
 }

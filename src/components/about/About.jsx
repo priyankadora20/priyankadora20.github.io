@@ -10,7 +10,7 @@ const About = () => {
   return(
    <section className="about container section" id="about">
 
-    <h2 className="section_title"></h2>
+
     
     <div className="about__container grid">
       <div className="about__img" >
@@ -31,8 +31,12 @@ const About = () => {
 
         <br>
         </br>
-        <p id="intro">I am Priyanka Dora
-        , Full Stack Web Developer with a diverse range of skills including React.js ,HTML ,CSS ,javascript ,MongoDB ,Node.js and Express .Always excited to learn and try to implement my creativity in it .</p>
+        <p id="intro">I am Priyanka Dora.
+        <br/>
+
+        Full Stack Web Developer with a diverse range of skills including React.js, HTML, CSS, JavaScript, MongoDB, Node.js and Express.
+        <br/>
+        Always excited to learn and try to implement my creativity in it .</p>
         
        </h4>
        <a href={pri} className="btn" download

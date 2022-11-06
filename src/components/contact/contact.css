@@ -3,7 +3,7 @@
 }
 
 .contact__container {
-    grid-template-columns: 6fr 10fr;
+    grid-template-columns: 5fr 5fr;
     column-gap:1.875rem ;    
 }
 .contact__title{
@@ -28,13 +28,13 @@
     top:0;
     left:0;
     width:70%;
-    height:70%;
+    height:90%;
     box-shadow: var(--shadow);
-    background-color: var(--container-color);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
     color:var(--text-color);
     border: none;
     outline:none;
-    border-radius:  1.857rem;
+    border-radius:  1rem;
     padding:0.625rem 1.875rem;
     z-index: 1;
 }
@@ -46,8 +46,16 @@
 }
 #btnsend{
     width:30%;
-    margin-top: -45px;
+    margin-top: -10px;
+    margin-left: 20%;
 }
 .contact__info{
     text-align: center;
+}
+#contactsmall{
+    border: 1px solid transparent;
+    margin-bottom: 50px; 
+}
+#contact{
+    border: 1px solid transparent;
 }

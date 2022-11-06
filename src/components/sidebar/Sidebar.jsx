@@ -2,13 +2,14 @@ import React from 'react';
 import "./sidebar.css";
 import Me from "../../assets/Me.jpg"
 import { Link } from "react-scroll";
-import Toggle from "../Toggle/Toggle";
+import pri from "../resumesOriginal/priyanka-dora-Resume.pdf";
+
 
 const Sidebar =() =>{
     return (
         <aside className='aside'>
             <a href="#home" className="nav__logo">
-                <img className="nav__logonew" src={Me} alt="return to top" width="400" height="400"   />
+                <img className="nav__logonew" src={Me} alt="return to top" width="400" height="400" />
             </a>
             
             <nav className='nav'>
@@ -47,8 +48,10 @@ const Sidebar =() =>{
                         offset={-70}
                         duration={400}>
                     
-                    <a href="#services"></a>
+                  
                     <i className="icon-briefcase"></i>
+                    
+                    
                     </Link>
                     <p className="hide">Projects</p>
                     </li>
@@ -77,7 +80,7 @@ const Sidebar =() =>{
                     <i className="icon-note"></i>
                     
                     </Link>
-                    <p className="hide">Git Statistics</p>
+                    <p className="hide">Github</p>
                     </li>
                   
 
@@ -86,13 +89,22 @@ const Sidebar =() =>{
                         <a href ="#contact" className='nav__link'>
                         <i className="icon-bubble"></i>
                         </a>
-                        <p className="hide">contact</p>
+                        <p className="hide">Contact</p>
                        </li>
                         
-                        <li>
-                            <Toggle/>
-                        </li>
                         
+                       <li className='nav__item'>
+                        
+                       <a href={pri} className='nav__link' id='download' download>
+                        <i className="icon-link" onClick={
+                            ()=>{
+                                window.open("https://drive.google.com/file/d/1VU3Ejs1yXAZMF6TUvFBuOFHSl2I6H8Pw/view?usp=share_link")
+                            }
+                        }></i>
+                        </a>
+                        <p className="hide">ResumeLink</p>
+                       </li>
+                       
 
                     </ul>
 

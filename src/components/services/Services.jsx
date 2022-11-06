@@ -46,7 +46,7 @@ const data =[
 
 const Services = () => {
   return <section className='services container section' id="projects">
-    <h3 className="section__title">Projects :</h3>
+    <h3 className="section__title" id='project'>Projects </h3>
 
     <div className="services__container grid">
       {data.map (({id,image,title,about,description,git,netlify}) => {
@@ -54,18 +54,20 @@ const Services = () => {
         <div className='services__card'key={id}>
           <img src={image} alt="" className="services__img"/>
           <h3 className='services__title'>{title}</h3>
+          <div className='ptagabout'>
           <p className='services__about'>{about}</p>
           <p className='services__description'>{description}</p>
-          <a href={git} className='services__github'>
-          <button className='services__github-a'>Github
-          <i class="fa-brands fa-github"></i>
-          </button>
+          </div>
+          <a href={git} className='services__github' >
+          
+          <i class="fa-brands fa-github fa-gitgit" id='fa-github' ></i>
+          
           </a>
           
           <a href={netlify} className='services__netlify'>
-          <button className='services__netlify-b' >Netlify
+          
           <i class="fa-solid fa-globe"></i>
-          </button>
+         
           </a>
           
           

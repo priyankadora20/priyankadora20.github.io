@@ -2,7 +2,8 @@
     margin-bottom: 1.5rem;
     width:300px;
     height:320px;
-    transform: rotate(10deg);
+    transform: rotate(-10deg);
+    margin-left: 80px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
  margin-top:50px;   
  padding :1rem;
@@ -38,5 +39,12 @@
 #intro{
     font-size:25px;
     font-family:Arial, Helvetica, sans-serif;
+
     
+}
+.btn:hover{
+    color: black;
+}
+.about__info{
+    margin-top: -50px;
 }
