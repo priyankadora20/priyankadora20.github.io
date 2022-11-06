@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.b6654a42.css",
-    "main.js": "/static/js/main.0182afcc.js",
+    "main.css": "/static/css/main.a448ca46.css",
+    "main.js": "/static/js/main.badfef21.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/monsterIndia.webp": "/static/media/monsterIndia.01c8f859b024674c07ee.webp",
     "static/media/priyanka-dora-Resume.pdf": "/static/media/priyanka-dora-Resume.938ef0b0b90ff57b823c.pdf",
     "static/media/tripvilla.jpg": "/static/media/tripvilla.2fae58cb9e11d997f7cb.jpg",
+    "static/media/weather.png": "/static/media/weather.67f77bfecd6393d30f01.png",
     "static/media/Me.jpg": "/static/media/Me.b1603c5b1bc1022f8c6e.jpg",
     "static/media/coshedule.jpg": "/static/media/coshedule.35afde9373539a74fdf0.jpg",
     "index.html": "/index.html",
-    "main.b6654a42.css.map": "/static/css/main.b6654a42.css.map",
-    "main.0182afcc.js.map": "/static/js/main.0182afcc.js.map",
+    "main.a448ca46.css.map": "/static/css/main.a448ca46.css.map",
+    "main.badfef21.js.map": "/static/js/main.badfef21.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b6654a42.css",
-    "static/js/main.0182afcc.js"
+    "static/css/main.a448ca46.css",
+    "static/js/main.badfef21.js"
   ]
 }
