@@ -109,18 +109,14 @@ color:goldenrod;
 }
 
 
-@media  only screen and (max-width:1024px)and(min-width:437px){
-    .home__social-link{
-        font-size:1.125rem
-    }
-}
-
-@media only screen and (max-width:337px){
-    .home__social-link{
-        font-size:1rem
-    }
-
+@media screen and (max-width: 769px) {
     #moving{
-        margin-right: 250px;
+        margin-right: -140px;
     }
-}
+  }
+  @media screen and (max-width: 426px) {
+    #moving{
+        margin-right: -70px;
+    }
+  }
+  

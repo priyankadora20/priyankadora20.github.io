@@ -21,7 +21,7 @@ const Contact = () => {
 
       </div>
       
-          <form action="" className="contact__form">
+          <form action="" className="contact__form" id='formscontact'>
 
             <div className="contact__form-group">
               <div className="contact__form-div">
@@ -49,7 +49,11 @@ const Contact = () => {
                 </textarea>
 
               </div>
-              <button className="btn" id='btnsend'>Send</button>
+              <div className='btnsends'>
+              <button className="btn " id='btnsend'>Send</button>
+
+              </div>
+             
 
               
 

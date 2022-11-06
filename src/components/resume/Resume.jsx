@@ -34,11 +34,12 @@ const Resume = () => {
           <div id='intern'>
 
           
-          <div className="timeline grid" id="intership">
+          <div className="timeline grid " id="intership">
     {Data.map((val, id)=>{
       if(val.category ==="Internship") {
         return (
-          <Card key={id} 
+          
+             <Card key={id} 
           icon={val.icon} 
           title={val.title}
           year={val.year}
@@ -46,6 +47,8 @@ const Resume = () => {
           insti={val.insti}
           place={val.place}
           />
+          
+         
         )
       }
     })}

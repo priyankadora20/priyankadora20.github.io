@@ -3,7 +3,7 @@ import "./services.css";
 import monsterIndia from "../../assets/monsterIndia.webp";
 import tripvilla from "../../assets/tripvilla.jpg";
 import coshedule from "../../assets/coshedule.jpg"
-
+import weather from "../../assets/weather.png"
 
 const data =[
   {
@@ -35,9 +35,9 @@ const data =[
   },
   {
     id:3,
-    image: coshedule,
-    title:"CoShedule Clone",
-    about:"CoSchedule Marketing Calendar that lets you plan all your marketing projects and write, schedule, and publish your social messages .",
+    image: weather,
+    title:"Weather app [IN-PROCESS]",
+    about:"Weather forecasting app it allows users to see the conditions, forecast, and other metrics of the device's current location, as well as a number of other cities.",
     description :"Tech-Stack : React.js,redux,chakra-UI",
     git:``,
     netlify:``

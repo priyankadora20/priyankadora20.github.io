@@ -161,3 +161,8 @@ margin-top: 40px;
 
   }
 }
+@media screen and (max-width: 424px) {
+  :root{
+    margin: auto;
+  }
+}

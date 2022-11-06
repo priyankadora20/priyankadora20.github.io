@@ -119,10 +119,7 @@ const Sidebar =() =>{
         <div className="nav__footer">
             <span className='copyright'>Priyanka Dora</span>
         </div>
-        <div className="nav__toggle">
-            <i className="icon-menu"></i>
-        </div>
-
+      
         </aside>
     )
 }

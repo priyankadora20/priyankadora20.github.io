@@ -32,8 +32,7 @@ const Git = () => {
       style={{margin:'auto'}}
       username="priyankadora20"
       transform={selectLastHalfYear}
-      blockSize={20}
-      fontSize={20}
+     
       >
         <ReactTooltip delayShow={20}/>
       </GitHubCalendar>

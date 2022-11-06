@@ -31,6 +31,9 @@ const About = () => {
 
         <br>
         </br>
+        <div id="newintro">
+
+        
         <p id="intro">I am Priyanka Dora.
         <br/>
 
@@ -38,9 +41,11 @@ const About = () => {
         <br/>
         Always excited to learn and try to implement my creativity in it .</p>
         
+        </div>
        </h4>
-       <a href={pri} className="btn" download
+       <a href={pri} className="btn btndownload" download
         >Download Resume</a>
+
       </div>
  
     </div>
