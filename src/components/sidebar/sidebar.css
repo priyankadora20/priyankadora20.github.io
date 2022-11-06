@@ -4,14 +4,15 @@
     top:0;
     background:var(--body-color);
     border-right:1px solid rgba(0,0,0,0.05);
-    padding:2.5rem;
+    
+    padding:1.5rem;
     width:110px;
     min-height:100vh;
     display:flex;
     flex-direction:column;
     justify-content:space-between;
     z-index:10;
-
+    min-height: -webkit-fill-available;
 }
 .nav__list {
     display:flex;
@@ -34,7 +35,7 @@
     writing-mode: vertical-rl;
 }
 .nav__logonew{
-  width:50px;
+  width:40px;
   border-radius: 50%;
 }
 .hide{
@@ -46,9 +47,12 @@
     display:inline;
     color: lightslategray;
 }
+.nav__item{
+padding: 5px;
+}
 
 
-@media screen and (max-width:1024px){
-   
+@media screen and (max-width:426px){
+    
  
 }

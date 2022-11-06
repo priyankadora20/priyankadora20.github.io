@@ -32,6 +32,7 @@ const Git = () => {
       style={{margin:'auto'}}
       username="priyankadora20"
       transform={selectLastHalfYear}
+      className="giton"
      
       >
         <ReactTooltip delayShow={20}/>

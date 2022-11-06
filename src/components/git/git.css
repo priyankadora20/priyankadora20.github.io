@@ -60,4 +60,10 @@ width:100%;
 align-items: center;
  
 }
+.section__title{
+  color: var(--text-color);
+  padding: 30px;
+  padding-bottom: 0px;
+}
+
 }
