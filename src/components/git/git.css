@@ -5,6 +5,12 @@
   align-items: center;
    
 }
+
+.statsimg{
+  width:fit-content;
+  height: 80%;
+  margin-top: 20px;
+}
 #stats__small{
  
     width: 100%;
@@ -12,13 +18,14 @@
    
     display:grid;
    
-    grid-template-columns: repeat(3,2fr);
+    grid-template-columns: repeat(3,1fr);
 }
 .section__title{
   color: var(--text-color);
   padding: 30px;
-  padding-bottom: -20px;
+  margin-bottom: 20px;
 }
+
 @media screen and (max-width: 1024px) {
   #stats__small{
  
@@ -31,6 +38,7 @@
 }
 #gitcalender{
   font-size: 15px;
+  width:100%;
 }
 #stats{
   margin: auto;
@@ -39,6 +47,7 @@ width:100%;
 align-items: center;
  
 }
+
 }
 
 

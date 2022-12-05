@@ -3,7 +3,7 @@ import "./services.css";
 import monsterIndia from "../../assets/monsterIndia.webp";
 import tripvilla from "../../assets/tripvilla.jpg";
 import coshedule from "../../assets/coshedule.jpg"
-import weather from "../../assets/weather.png"
+import kitchen from "../../assets/kitchen.png"
 
 const data =[
   {
@@ -11,7 +11,7 @@ const data =[
     image: monsterIndia,
     title:"Monster India Clone",
     about:"India's one of the largest job search website.And one can find jobs by easy application. Monster India started its operations in 2001 .",
-    description :"Tech-Stack : HTML,CSS & JavaScript",
+    description :"Tech-Stack : HTML,CSS,Flikity & JavaScript",
     git:`https://github.com/Pankaj-78278/kaput-boundary-7997`,
     netlify:`https://magical-lollipop-a0ab27.netlify.app/`
   },
@@ -29,22 +29,25 @@ const data =[
     image: coshedule,
     title:"CoShedule Clone",
     about:"CoSchedule Marketing Calendar that lets you plan all your marketing projects and write, schedule, and publish your social messages .",
-    description :"Tech-Stack : React.js,redux,chakra-UI",
-    git:``,
+    description :"Tech-Stack : React.js,Redux,Chakra-UI",
+    git:`https://github.com/priyankadora20/mixed-mitten-7508/tree/main/coschedule_app`,
     netlify:``
   },
   {
-    id:3,
-    image: weather,
-    title:"Weather app [IN-PROCESS]",
-    about:"Weather forecasting app it allows users to see the conditions, forecast, and other metrics of the device's current location, as well as a number of other cities.",
-    description :"Tech-Stack : React.js,redux,chakra-UI",
-    git:``,
-    netlify:``
+    id:4,
+    image: kitchen,
+    title:"Kitchen Corner",
+    about:"KindMeal.my is Malaysia's leading meat-free lifestyle platform , indulging you with delicious discounted vegetarian meals to save animals, health",
+    description :"Tech-Stack : React.js,Redux,Chakra-UI ",
+    git:`https://github.com/priyankadora20/blessed-toes-567#readme`,
+    netlify:`https://blessed-toes-567-ten.vercel.app/`
   }
+  
 ]
 
 const Services = () => {
+
+  
   return <section className='services container section' id="projects">
     <h3 className="section__title" id='project'>Projects </h3>
 
@@ -58,13 +61,13 @@ const Services = () => {
           <p className='services__about'>{about}</p>
           <p className='services__description'>{description}</p>
           </div>
-          <a href={git} className='services__github' >
+          <a href={git} className='services__github' target="_blank" >
           
           <i class="fa-brands fa-github fa-gitgit" id='fa-github' ></i>
           
           </a>
           
-          <a href={netlify} className='services__netlify'>
+          <a href={netlify} className='services__netlify' target="_blank">
           
           <i class="fa-solid fa-globe"></i>
          
