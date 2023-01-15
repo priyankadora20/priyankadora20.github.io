@@ -6,7 +6,7 @@ import datas from "./datas";
 const Skills = () => {
   return (
     <section  className="skills container section" >
-      <h2 className="section__title grid">Tech Stack </h2>
+      <h2 className="section__title grid"  style={{fontFamily:"cursive" }}>Tech Stack </h2>
       
     <div className="skills__list grid"> 
       {datas.map(({id,image,p}) => {

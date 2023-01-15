@@ -117,7 +117,37 @@ color:goldenrod;
   }
   @media screen and (max-width: 426px) {
     #moving{
-        margin-right: -70px;
+        margin-right: -50px;
     }
   }
   
+
+  
+
+  @media screen and (min-width:395px) and (max-width:825px){
+ 
+            
+        
+  }
+  
+  @media screen and (max-width:395px) {
+   
+    
+.home__img {
+    margin-top: 150px;
+    margin-bottom: 1.5rem;
+    width:150px;
+    height:150px;
+    border-radius: 100%;
+}
+.home__name {
+    font-size :25px;
+    font-weight:var(--font-bold);
+    margin-bottom:0.5rem;
+    text-align: center;
+}
+#moving{
+    margin-right: -60px;
+}
+    
+  }

@@ -1,11 +1,12 @@
 import React from 'react'
+import { HeaderSocials } from '../home/HeaderSocials'
 import "./contact.css"
 
 const Contact = () => {
   return (
    <section className="contact container section" id="contact">
 
-   <h2 className="section__title" id='contactsmall'>Get In Touch</h2>
+   <h2 className="section__title" id='contactsmall'  style={{fontFamily:"cursive" }}>Get In Touch</h2>
 
     <div className="contact__container grid">
 
@@ -17,11 +18,12 @@ const Contact = () => {
         <p className="contact__details">Send me an email.👋</p>
         <p>Email : dora1234priyanka@gmail.com</p>
         <p>Contact no :+91-6370503243</p>
+        <HeaderSocials/>
         <img src="https://media.tenor.com/0ceXa2Dg8ywAAAAC/email-sent.gif" alt="sent img" />
-
+       
       </div>
       
-          <form action="" className="contact__form" id='formscontact'>
+          <form action=""  className="contact__form" id='formscontact'>
 
             <div className="contact__form-group">
               <div className="contact__form-div">
@@ -50,7 +52,7 @@ const Contact = () => {
 
               </div>
               <div className='btnsends'>
-              <button className="btn " id='btnsend'>Send</button>
+              <button className="btn " id='btnsend' >Send</button>
 
               </div>
              

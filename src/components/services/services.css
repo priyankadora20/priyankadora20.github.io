@@ -4,10 +4,10 @@
     row-gap: 30px;
     text-align: center;
 }
-#project{
-    margin-top: -100px;
-}
+
+
 .services__card {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
    
     text-align: center;
     padding:0.7rem;
@@ -41,6 +41,12 @@
     color: white;
 
 }
+.services__card:nth-child(5){
+    background-color:var(--first-color);
+    box-shadow:0px 5px 20px 0px rgb(249, 124, 139 /50%);
+    color: white;
+
+}
 .services__img {
     margin-bottom :1.25rem;
     height: 250px;
@@ -68,6 +74,9 @@
 }
 .section__title {
     font-size: 50px;
+}
+.services__title{
+    font-weight: bold;
 }
 .services__github-a:hover {
     width:110px;
@@ -145,6 +154,9 @@
         background-color:var(--container-color);
         transition: all 0.5s ease-in-out;
     }
+    .services__title{
+        font-weight: bold;
+    }
   }
   @media screen and (max-width: 429px) {
     .services__container {
@@ -161,5 +173,31 @@
         background-color:var(--container-color);
         transition: all 0.5s ease-in-out;
     }
+    .services__title{
+        font-weight: bold;
+    }
   }
+ 
+
+
   
+@media screen and (min-width:395px) and (max-width:825px){
+    .services__container {
+        grid-template-columns: repeat(2,1fr);
+        column-gap:1.2rem;
+        row-gap: 30px;
+        text-align: center;
+    }
+    
+   
+}
+
+@media screen and (max-width:395px) {
+    .services__container {
+        grid-template-columns: repeat(1,1fr);
+        column-gap:1.2rem;
+        row-gap: 30px;
+        text-align: center;
+    }
+        
+}

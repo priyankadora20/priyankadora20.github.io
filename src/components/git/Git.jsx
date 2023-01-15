@@ -26,7 +26,7 @@ const Git = () => {
   return (
     
     <section className="git container section" id='gitbox'>
-    <h1 className="section__title grid">Git Hub</h1>
+    <h1 className="section__title grid"  style={{fontFamily:"cursive" }}>Git Hub</h1>
       <div id='gitcalender'>
       <GitHubCalendar 
       style={{margin:'auto'}}

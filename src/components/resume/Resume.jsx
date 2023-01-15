@@ -6,7 +6,7 @@ import { Card } from './Card';
 const Resume = () => {
   return (
     <section className="resume container section" id="resume">
-      <h2 className="section__title">Education </h2>
+      <h2 className="section__title"  style={{fontFamily:"cursive" }} id="heado" >Education </h2>
 
         <div className="resume__container grid">
           <div className="timeline grid">
@@ -29,7 +29,7 @@ const Resume = () => {
         </div>
 
 
-        <h2 className="section__title">Internship </h2>
+        <h2 className="section__title"  style={{fontFamily:"cursive" }}  id="heado" >Internship </h2>
 
         <div className="resume__container grid" >
           <div id='intern'>

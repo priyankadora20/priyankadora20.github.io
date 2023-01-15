@@ -32,6 +32,7 @@ const Sidebar =() =>{
                         duration={400}>
                         <i className="icon-home"></i>
                         </Link>
+                        <p className="hide">Home</p>
                         </li>
 
                         <li className='nav__item'>   
@@ -44,6 +45,7 @@ const Sidebar =() =>{
                         duration={400}>
                         <i className="icon-user-following"></i>
                         </Link>
+                        <p className="hide">About</p>
                         </li>
 
                         <li className='nav__item'>  
@@ -57,6 +59,7 @@ const Sidebar =() =>{
                         duration={400}>
                         <i className="icon-graduation"></i>
                         </Link>
+                        <p className="hide">Education</p>
                         </li>
 
                      <li className='nav__item'>
@@ -115,6 +118,7 @@ const Sidebar =() =>{
                        <i className="icon-bubble"></i>
                     
                     </Link>
+                    <p className="hide">Contact</p>
                        </li>
                         
                         
@@ -127,7 +131,7 @@ const Sidebar =() =>{
                             }
                         }></i>
                         </a>
-                        <p className="hide">ResumeLink</p>
+                        <p className="hide">Resume</p>
                        </li>
                        
 
