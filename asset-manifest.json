@@ -1,21 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.4133a18b.css",
-    "main.js": "/static/js/main.bec97c7b.js",
+    "main.css": "/static/css/main.adffa5a2.css",
+    "main.js": "/static/js/main.46c7f5d9.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/kitchen.png": "/static/media/kitchen.860deb4530be71a8b305.png",
+    "static/media/b.png": "/static/media/b.3a5c931a4ab8f1d4de42.png",
     "static/media/monsterIndia.webp": "/static/media/monsterIndia.01c8f859b024674c07ee.webp",
-    "static/media/priyanka-dora-Resume.pdf": "/static/media/priyanka-dora-Resume.5ded3e45ad5874eda73e.pdf",
     "static/media/tripvilla.jpg": "/static/media/tripvilla.2fae58cb9e11d997f7cb.jpg",
+    "static/media/priyanka-dora-Resume.pdf": "/static/media/priyanka-dora-Resume.a8eaa27f039d364fde58.pdf",
+    "static/media/a.png": "/static/media/a.b268a999ffc182d97d6a.png",
     "static/media/Me.jpg": "/static/media/Me.b1603c5b1bc1022f8c6e.jpg",
     "static/media/coshedule.jpg": "/static/media/coshedule.35afde9373539a74fdf0.jpg",
     "index.html": "/index.html",
-    "main.4133a18b.css.map": "/static/css/main.4133a18b.css.map",
-    "main.bec97c7b.js.map": "/static/js/main.bec97c7b.js.map",
+    "main.adffa5a2.css.map": "/static/css/main.adffa5a2.css.map",
+    "main.46c7f5d9.js.map": "/static/js/main.46c7f5d9.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4133a18b.css",
-    "static/js/main.bec97c7b.js"
+    "static/css/main.adffa5a2.css",
+    "static/js/main.46c7f5d9.js"
   ]
 }
