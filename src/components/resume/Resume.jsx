@@ -30,14 +30,15 @@ const Resume = () => {
 
 
         <h2 className="section__title">Internship </h2>
+
         <div className="resume__container grid" >
           <div id='intern'>
 
           
           <div className="timeline grid " id="intership">
-    {Data.map((val, id)=>{
-      if(val.category ==="Internship") {
-        return (
+                {Data.map((val, id)=>{
+                if(val.category ==="Internship") {
+                return (
           
              <Card key={id} 
           icon={val.icon} 

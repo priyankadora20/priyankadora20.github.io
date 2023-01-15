@@ -32,6 +32,14 @@
 
 
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,200&display=swap");
+
+* {
+  font-weight: normal;
+  font-family: "Poppins", sans-serif;
+ 
+}
 .nav__link:hover{
   color: goldenrod;
 }

@@ -8,8 +8,12 @@
  margin-top:50px;   
  padding :1rem;
  padding-bottom: 3rem;
-}
 
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
 .about__img_name{
     text-align: center;
     font-family:monospace
@@ -37,10 +41,8 @@
     font-size:50px;
 }
 #intro{
-    font-size:25px;
-    font-family:Arial, Helvetica, sans-serif;
-
-    
+    text-align: justify;
+   
 }
 .btn:hover{
     color: black;

@@ -9,37 +9,58 @@ const Sidebar =() =>{
     return (
         <aside className='aside'>
             <a href="#home" className="nav__logo">
-                <img className="nav__logonew" src={Me} alt="return to top" width="400" height="400" />
+
+                <img className="nav__logonew" 
+                src={Me} 
+                alt="return to top" 
+               />
+                
             </a>
             
             <nav className='nav'>
                 <div className='nav__menu'>
                     <ul className='nav__list'>
                         
-                       <li className='nav__item'>
-                        <a href ="#home" className='nav__link'>
-                            <i className="icon-home"></i>
-                            
-                        </a>
-                        <p className="hide">Home</p>
-                       </li>
-
-                       <li className='nav__item'>
-                        <a href ="#about" className='nav__link'>
-                        <i className="icon-user-following"></i>
-                        
-                        </a>
-                        <p className="hide">About</p>
-                       </li>
-
-                       <li className='nav__item'>
-                        <a href ="#resume" className='nav__link'>
-                        <i className="icon-graduation"></i>
-                        </a>
-                        <p className="hide">Education</p>
-                       </li>
-
+                       
                     <li className='nav__item'>
+                        <Link
+                        className="nav__link"
+                        to="home"
+                         spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={400}>
+                        <i className="icon-home"></i>
+                        </Link>
+                        </li>
+
+                        <li className='nav__item'>   
+                        <Link
+                        className="nav__link"
+                        to="about"
+                         spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={400}>
+                        <i className="icon-user-following"></i>
+                        </Link>
+                        </li>
+
+                        <li className='nav__item'>  
+
+                        <Link
+                        className="nav__link"
+                        to="resume"
+                         spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={400}>
+                        <i className="icon-graduation"></i>
+                        </Link>
+                        </li>
+
+                     <li className='nav__item'>
+                        
                     <Link
                         className="nav__link"
                         to="services"
@@ -83,17 +104,17 @@ const Sidebar =() =>{
                     <p className="hide">Github</p>
                     </li>
 
-
-
-
-                  
-
-                       <li className='nav__item'>
-                        
-                        <a href ="#contact" className='nav__link'>
-                        <i className="icon-bubble"></i>
-                        </a>
-                        <p className="hide">Contact</p>
+                    <li className='nav__item'>
+                    <Link
+                        className="nav__link"
+                        to="contact"
+                         spy={true}
+                        smooth={true}
+                        offset={-70}
+                        duration={400}>
+                       <i className="icon-bubble"></i>
+                    
+                    </Link>
                        </li>
                         
                         
@@ -102,7 +123,7 @@ const Sidebar =() =>{
                        <a href={pri} className='nav__link' id='download' download>
                         <i className="icon-link" onClick={
                             ()=>{
-                                window.open("https://drive.google.com/file/d/1VU3Ejs1yXAZMF6TUvFBuOFHSl2I6H8Pw/view?usp=share_link")
+                                window.open("https://drive.google.com/file/d/12NcrGfaNv56WmDUljl9D2ReTsWQSk4hE/view?usp=sharing")
                             }
                         }></i>
                         </a>
@@ -116,10 +137,7 @@ const Sidebar =() =>{
 
             </nav>
         
-        <div className="nav__footer">
-            <span className='copyright'>Priyanka Dora</span>
-        </div>
-      
+       
         </aside>
     )
 }

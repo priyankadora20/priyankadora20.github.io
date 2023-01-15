@@ -22,9 +22,10 @@
     border-radius: 100%;;
 }
 .home__name {
-    font-size :var(--h1-font-size);
+    font-size :50px;
     font-weight:var(--font-bold);
     margin-bottom:0.5rem;
+    text-align: center;
 }
 
 .home__socials {

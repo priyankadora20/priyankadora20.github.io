@@ -7,6 +7,7 @@ import Resume from './components/resume/Resume';
 import Skills from './components/skills/Skills';
 import Contact from './components/contact/Contact';
 import Git from './components/git/Git';
+import Thank from './components/thank';
 
 function App() {
   return (
@@ -22,7 +23,7 @@ function App() {
         <Git />
         <Contact />
         
-        
+        <Thank/>
       </main>
     </div>
   );

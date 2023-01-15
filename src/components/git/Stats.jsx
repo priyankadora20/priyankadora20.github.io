@@ -10,6 +10,7 @@ const Stats =() =>{
             <a href="https://github.com/priyankadora20" target="_blank">
                 <img className='streak_img statsimg' src="https://github-readme-streak-stats.herokuapp.com?user=priyankadora20&theme=radical&border_radius=4.6&theme=gruvbox_duo" alt="" />
             </a>
+            
         </div>
 
 

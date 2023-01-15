@@ -1,14 +1,14 @@
 .services__container {
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
     column-gap:1.2rem;
-    align-items: center;
-    
+    row-gap: 30px;
+    text-align: center;
 }
 #project{
     margin-top: -100px;
 }
 .services__card {
-    width:300px;
+   
     text-align: center;
     padding:0.7rem;
     border-radius:var(--border-radius);
@@ -132,13 +132,13 @@
  
 @media screen and (max-width: 769px) {
     .services__container {
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
         gap:1.875rem;
         align-items: center;
         
     }
     .services__card {
-        width:500px;
+        width:300px;
         text-align: center;
         padding:0.7rem;
         border-radius:var(--border-radius);

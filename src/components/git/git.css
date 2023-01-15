@@ -1,9 +1,15 @@
 #stats{
     margin: auto;
     border: 1px solid transparent;
-  width:80%;
+  width:90%;
   align-items: center;
-   
+ 
+}
+#gitcalender{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  border-radius: 10px;
+  
 }
 
 .statsimg{
@@ -11,19 +17,33 @@
   height: 80%;
   margin-top: 20px;
 }
+
 #stats__small{
- 
-    width: 100%;
+    width: 100%; 
     border: 1px solid transparent;
-   
     display:grid;
-   
     grid-template-columns: repeat(3,1fr);
+    column-gap: 10px;
 }
 .section__title{
   color: var(--text-color);
   padding: 30px;
   margin-bottom: 20px;
+}
+.lang_st_img{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 450px;
+  height: 200px;
+}
+
+.streak_img{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 450px;
+  height: 200px;
 }
 
 @media screen and (max-width: 1024px) {
@@ -34,15 +54,15 @@
    
     display:grid;
    
-    grid-template-columns: repeat(1,1fr);
+    grid-template-columns: repeat(2,1fr);
 }
 #gitcalender{
   font-size: 15px;
   width:100%;
 }
 #stats{
-  margin: auto;
-  border: 1px solid transparent;
+margin: auto;
+border: 1px solid transparent;
 width:100%;
 align-items: center;
  

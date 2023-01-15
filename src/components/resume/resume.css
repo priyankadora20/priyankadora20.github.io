@@ -5,14 +5,17 @@
     border-radius: var(--border-radius);
     position:relative;
     
-    width:90%;
+    width:100%;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(2,1fr);
+    
     align-items: center;
     gap:2rem;
     margin: auto;
 }
 .timeline__item {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; 
+
     background-color:var(--first-color);
     position:relative;
     padding-left:3.125;
@@ -64,7 +67,7 @@
 #intern{
     margin: auto;
    border: 1px solid transparent;
-   width: 50%;
+   width: 100%;
 }
 
 #intership{
@@ -174,12 +177,10 @@
         background-color: var(--container-color);
         padding:1.875rem;
         border-radius: var(--border-radius);
-        position:relative;
-        
+        position:relative;    
         width:100%;
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-      
+        grid-template-columns: repeat(1,1fr);
         align-items: center;
         gap:2rem;
         margin: auto;

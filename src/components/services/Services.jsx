@@ -56,7 +56,7 @@ const Services = () => {
         return(
         <div className='services__card'key={id}>
           <img src={image} alt="" className="services__img"/>
-          <h3 className='services__title'>{title}</h3>
+          <h2 className='services__title'>{title}</h2>
           <div className='ptagabout'>
           <p className='services__about'>{about}</p>
           <p className='services__description'>{description}</p>
