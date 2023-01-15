@@ -40,7 +40,7 @@ const Resume = () => {
                 if(val.category ==="Internship") {
                 return (
           
-             <Card key={id} 
+          <Card key={id} 
           icon={val.icon} 
           title={val.title}
           year={val.year}
