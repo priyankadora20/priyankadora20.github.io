@@ -25,15 +25,6 @@ const data =[
     netlify:`https://eloquent-treacle-aba50e.netlify.app/`
   },
   {
-    id:3,
-    image: coshedule,
-    title:"CoShedule Clone",
-    about:"CoSchedule Marketing Calendar that lets you plan all your marketing projects and write, schedule, and publish your social messages .",
-    description :"TechStack : React.js, Redux, Chakra-UI",
-    git:`https://github.com/priyankadora20/mixed-mitten-7508/tree/main/coschedule_app`,
-    netlify:``
-  },
-  {
     id:4,
     image: kitchen,
     title:"Kitchen Corner",
