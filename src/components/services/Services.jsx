@@ -31,7 +31,7 @@ const data =[
     about:"KindMeal.my is Malaysia's leading meat-free lifestyle platform , indulging you with delicious discounted vegetarian meals to save animals, health",
     description :"TechStack : React.js, Redux, Chakra-UI , Node.js",
     git:`https://github.com/priyankadora20/punchy-substance-1301#readme`,
-    netlify:`https://super-belekoy-306029.netlify.app/`
+    netlify:`https://blessed-toes-567-ten.vercel.app/`
   }
   ,
   {
@@ -41,7 +41,7 @@ const data =[
     about:"GeekBuying is one of the leading E-commerce websites delivering a wide range of consumer technology across the globe.",
     description :"TechStack : React.js,Redux,Chakra-UI, CSS ,MongoDb, Mongoose ",
     git:`https://github.com/priyankadora20/blessed-toes-567#readme`,
-    netlify:`https://blessed-toes-567-ten.vercel.app/`
+    netlify:`https://super-belekoy-306029.netlify.app/`
   }
   
   
