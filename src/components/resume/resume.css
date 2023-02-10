@@ -26,6 +26,7 @@
     height: 230px;
     border-radius: 25px;
     margin-bottom: 1rem;
+    transition: 1s;
 }
 
 .timeline__item:hover {
@@ -78,20 +79,21 @@
 @media screen and (max-width: 769px) {
     #intership{
        
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
     }
     .timeline__item {
         background-color:var(--first-color);
         position:relative;
-        padding-left:3.125;
-        padding-bottom: 3.125rem;
-        width:80%;
+       
+ 
+       
         padding:1.875rem;
         color: white;
         font-size: 12px;
-        height: 150px;
+       
         border-radius: 25px;
         margin-bottom: 1rem;
+        transition: 1s;
     }
    
     .timeline{
@@ -102,7 +104,7 @@
         
         width:90%;
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
         align-items: center;
         gap:0.5rem;
         margin: auto;
@@ -122,26 +124,27 @@
     }
     #intership{
 
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
     }
 }
 @media screen and (max-width: 425px) {
     #intership{
 
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
     }
     .timeline__item {
         background-color:var(--first-color);
         position:relative;
         padding-left:3.125;
         padding-bottom: 3.125rem;
-        width:100%;
+      
         padding:1.875rem;
         color: white;
         font-size: 11px;
         height: 280px;
         border-radius: 25px;
         margin-bottom: 1rem;
+        transition: 1.5s;
     }
     .timeline{
         background-color: var(--container-color);
@@ -151,7 +154,7 @@
         
         width:90%;
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
         align-items: center;
         gap:2rem;
         margin: auto;

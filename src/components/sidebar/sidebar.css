@@ -53,7 +53,7 @@ padding: 5px;
 
 @media screen and (min-width:395px) and (max-width:825px){
     .aside {
-        min-height:60vh;
+        min-height:100vh;
         
         
     }

@@ -20,6 +20,7 @@
     font-size:20px ;
     border-radius:var(--border-radius);
     color: white;
+    transition: 1s;
     
 }
 
@@ -31,9 +32,17 @@ font-weight: bolder;
 }
 
   
-  @media screen and (min-width:395px) and (max-width:825px){
+  @media screen and (max-width:825px){
     .skills__list {
         grid-template-columns: repeat(3,1fr);
+       gap:1rem;  
+       
+    }
+   
+}
+@media screen and (max-width:450px){
+    .skills__list {
+        grid-template-columns: repeat(2,1fr);
        gap:1rem;  
        
     }
