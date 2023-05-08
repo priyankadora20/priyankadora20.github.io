@@ -50,7 +50,7 @@
     margin-top: -50px;
     font-size:50px;
 }
-#intro{
+#user-detail-intro{
     text-align: justify;
    
 }
@@ -67,7 +67,7 @@
         grid-template-columns: repeat(1,1fr);
         font-size: 15px;
     }
-    #intro{
+    #user-detail-intro{
         font-size:12px;
         font-family:Arial, Helvetica, sans-serif;
     
@@ -107,7 +107,7 @@
   }
   @media screen and (max-width: 1077px) {
     
-    #intro{
+    #user-detail-intro{
         font-size:15px;
         font-family:Arial, Helvetica, sans-serif;
     
