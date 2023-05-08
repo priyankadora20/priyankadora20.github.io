@@ -36,8 +36,8 @@ const Sidebar =() =>{
                         
                         </Link>
                             
-                        <p class="nav-link home">Home</p>
-                        <p className="hide">Home</p>
+                         <p>Home</p>
+                        <p class ="nav-link home" >Home</p>
                         </li>
 
                         <li className='nav__item'>  
@@ -55,8 +55,8 @@ const Sidebar =() =>{
 
                         <i className="icon-user-following"></i>
                             </Link>
-                        <p class="nav-link about">About</p>
-                        <p className="hide">About</p>
+                        <p>About</p>
+                        <p class ="nav-link about" >About</p>
                         </li>
 
                         <li className='nav__item'>  
@@ -89,8 +89,8 @@ const Sidebar =() =>{
                     
                     
                             </Link>
-                    <p class="nav-link projects">Projects</p>
-                    <p className="hide">Projects</p>
+                             <p>Projects</p>
+                    <p class ="nav-link projects" >Projects</p>
                     </li>
                   
                     <li className='nav__item'>
@@ -103,7 +103,7 @@ const Sidebar =() =>{
                         duration={400}>
                     <i className="icon-layers"></i>
                             </Link>
-                    <p class="nav-link skills">Skills</p>
+                             <p>Skills</p>
                     <p className="hide">Skills</p>
                     </li>
 
@@ -133,7 +133,7 @@ const Sidebar =() =>{
                        <i className="icon-bubble"></i>
                     
                             </Link>
-                    <p class="nav-link contact">Contact</p>
+                            <p>Contact</p>
                     <p className="hide">Contact</p>
                        </li>
                         
@@ -147,7 +147,7 @@ const Sidebar =() =>{
                             }
                         }></i>
                             </a>
-                        <p class="nav-link resume">Resume</p>
+                            <p>Resume</p>
                         <p className="hide">Resume</p>
                        </li>
                        
