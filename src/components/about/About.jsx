@@ -24,12 +24,16 @@ const About = () => {
         <div id="newintro">
          
        
-        <p id="user-detail-intro" >I'm a Full Stack Web Developer with hands-on experience in designing, developing, and maintaining projects. Adept at learning, unlearning, and relearning. Demonstrate the capability of managing clean, elegant, and efficient code. Highly skilled in collaboration, decision-making, and Data Structures & Algorithms.I'm still enthusiastically grabbing on to multiple programming languages , frameworks, and principles that I can add to my skillset.</p>
+        <p id="user-detail-intro" >I'm a Full Stack Web Developer with hands-on experience in designing, developing, and maintaining projects. Adept at learning, unlearning, and relearning. Demonstrate the capability of managing clean, elegant, and efficient code. Highly skilled in collaboration, decision-making, Data Structures & Algorithms, HTML, CSS, react.js, javascript ,mongoDB , Nodejs, chakraUI and lot more.I'm still enthusiastically grabbing on to multiple programming languages , frameworks, and principles that I can add to my skillset.</p>
         
         </div>
-       </h4>
-       <a href={pri} id="resume-link-2" className="btn btndownload" download
-        >Download Resume</a>
+              </h4>
+              <button id="resume-link-2">
+                  <a href={pri}  className="btn btndownload" download >
+                 
+                 Download Resume</a>
+              </button>
+      
 
       </div>
      
