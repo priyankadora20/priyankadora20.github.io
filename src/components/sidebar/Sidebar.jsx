@@ -36,8 +36,8 @@ const Sidebar =() =>{
                         
                         </Link>
                             
-                         <p>Home</p>
-                        <p class ="nav-link home" >Home</p>
+
+                        <p class="nav-link home">Home</p>
                         </li>
 
                         <li className='nav__item'>  
@@ -54,9 +54,8 @@ const Sidebar =() =>{
                               
 
                         <i className="icon-user-following"></i>
-                            </Link>
-                        <p>About</p>
-                        <p class ="nav-link about" >About</p>
+                        </Link>
+                        <p class="nav-link home" >About</p>
                         </li>
 
                         <li className='nav__item'>  
@@ -69,8 +68,7 @@ const Sidebar =() =>{
                         offset={-70}
                         duration={400}>
                         <i className="icon-graduation"></i>
-                            </Link>
-                             <p>Education</p>
+                        </Link>
                         <p className="hide">Education</p>
                         </li>
 
@@ -88,9 +86,8 @@ const Sidebar =() =>{
                     <i className="icon-briefcase"></i>
                     
                     
-                            </Link>
-                             <p>Projects</p>
-                    <p class ="nav-link projects" >Projects</p>
+                    </Link>
+                    <p className="hide">Projects</p>
                     </li>
                   
                     <li className='nav__item'>
@@ -102,8 +99,7 @@ const Sidebar =() =>{
                         offset={-70}
                         duration={400}>
                     <i className="icon-layers"></i>
-                            </Link>
-                             <p>Skills</p>
+                    </Link>
                     <p className="hide">Skills</p>
                     </li>
 
@@ -117,8 +113,7 @@ const Sidebar =() =>{
                         duration={400}>
                     <i className="icon-note"></i>
                     
-                            </Link>
-                             <p>Github</p>
+                    </Link>
                     <p className="hide">Github</p>
                     </li>
 
@@ -132,8 +127,7 @@ const Sidebar =() =>{
                         duration={400}>
                        <i className="icon-bubble"></i>
                     
-                            </Link>
-                            <p>Contact</p>
+                    </Link>
                     <p className="hide">Contact</p>
                        </li>
                         
@@ -146,8 +140,7 @@ const Sidebar =() =>{
                                 window.open("https://drive.google.com/file/d/12NcrGfaNv56WmDUljl9D2ReTsWQSk4hE/view?usp=sharing")
                             }
                         }></i>
-                            </a>
-                            <p>Resume</p>
+                        </a>
                         <p className="hide">Resume</p>
                        </li>
                        
@@ -163,7 +156,4 @@ const Sidebar =() =>{
     )
 }
 
-
 export default Sidebar
-
-
