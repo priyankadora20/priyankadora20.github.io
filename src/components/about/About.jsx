@@ -28,7 +28,7 @@ const About = () => {
         
         </div>
        </h4>
-       <a href={pri} id="resume-link-2" className="btn btndownload" download
+       <a href={pri}  className="btn btndownload" download
         >Download Resume</a>
 
       </div>
