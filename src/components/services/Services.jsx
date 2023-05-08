@@ -57,20 +57,20 @@ const Services = () => {
     <div className="services__container grid">
       {data.map (({id,image,title,about,description,git,netlify}) => {
         return(
-        <div className='services__card'key={id}>
+        <div class='services__card project-card 'key={id} >
           <img src={image} alt="" className="services__img"/>
-          <h2 className='services__title'>{title}</h2>
+          <h2 class='services__title project-title'>{title}</h2>
           <div className='ptagabout'>
-          <p className='services__about'>{about}</p>
-          <p className='services__description'>{description}</p>
+          <p class='services__about project-description'>{about}</p>
+          <p class='services__description project-tech-stack'>{description}</p>
           </div>
-          <a href={git} className='services__github' target="_blank" >
+          <a href={git} class='services__github project-github-link' target="_blank" >
           
           <i class="fa-brands fa-github fa-gitgit" id='fa-github' ></i>
           
           </a>
           
-          <a href={netlify} className='services__netlify' target="_blank">
+          <a href={netlify} class='services__netlify project-deployed-link' target="_blank">
           
           <i class="fa-solid fa-globe"></i>
          

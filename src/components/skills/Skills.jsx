@@ -11,9 +11,9 @@ const Skills = () => {
     <div className="skills__list grid"> 
       {datas.map(({id,image,p}) => {
        return(
-      <div className="skills__card grid" key={id}>
-       <img src={image} alt="" className="skills__img" />
-        <p className="skills__name" >{p}</p>
+      <div class="skills__card grid skills-card" key={id}>
+       <img src={image} alt="" class="skills__img skills-card-img" />
+        <p class="skills__name skills-card-name" >{p}</p>
       </div>
 
        )

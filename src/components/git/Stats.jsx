@@ -6,7 +6,7 @@ const Stats =() =>{
     <div id='stats'>
 
     <div id='stats__small'>
-        <div className='streak lang_stats'>
+        <div className='streak lang_stats'  id="github-streak-stats" >
             <a href="https://github.com/priyankadora20" target="_blank">
                 <img className='streak_img statsimg' src="https://github-readme-streak-stats.herokuapp.com?user=priyankadora20&theme=radical&border_radius=4.6&theme=gruvbox_duo" alt="" />
             </a>
@@ -18,14 +18,15 @@ const Stats =() =>{
 
 
         
-        <div className='lang_stats'>
+        <div className='lang_stats'  id="github-stats-card"  >
 
 
             <a href="https://github.com/priyankadora20" target="_blank">
                 <img className='lang_st_img statsimg' src="https://github-readme-stats.vercel.app/api?username=priyankadora20&show_icons=true&theme=gruvbox_duo" alt="" />
             </a>
-        </div>
-        <div className='lang_stats'>
+                </div>
+                
+        <div className='lang_stats' id="github-top-langs">
            
             <a href="https://github.com/priyankadora20" target="_blank">
                 <img className='lang_st_img statsimg' src="https://github-readme-stats.vercel.app/api/top-langs/?username=priyankadora20&
