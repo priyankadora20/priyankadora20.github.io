@@ -25,8 +25,9 @@ const Sidebar =() =>{
                        
                         <li className='nav__item'>
                         
-                        <Link 
-                        className="nav__link "
+                            <Link 
+                      
+                        class="nav-link home"
                         to="home"
                         spy={true}
                         smooth={true}
@@ -43,8 +44,9 @@ const Sidebar =() =>{
                         <li className='nav__item'>  
                             
                         <Link
-                        className="nav__link"
+                        class="nav-link about"
                         to="about"
+                        
                          spy={true}
                         smooth={true}
                         offset={-70}
@@ -75,7 +77,7 @@ const Sidebar =() =>{
                      <li className='nav__item'>
                         
                     <Link
-                        className="nav__link"
+                        class="nav-link projects"
                         to="services"
                          spy={true}
                         smooth={true}
@@ -92,7 +94,7 @@ const Sidebar =() =>{
                   
                     <li className='nav__item'>
                     <Link
-                        className="nav__link"
+                        class="nav-link skills"
                         to="skills"
                          spy={true}
                         smooth={true}
@@ -119,7 +121,7 @@ const Sidebar =() =>{
 
                     <li className='nav__item'>
                     <Link
-                        className="nav__link"
+                        class="nav-link contact"
                         to="contact"
                          spy={true}
                         smooth={true}
@@ -134,7 +136,7 @@ const Sidebar =() =>{
                         
                        <li className='nav__item'>
                         
-                       <a href={pri} className='nav__link' id='download' download>
+                       <a href={pri} class="nav-link resume" id='download' download>
                         <i className="icon-link" onClick={
                             ()=>{
                                 window.open("https://drive.google.com/file/d/12NcrGfaNv56WmDUljl9D2ReTsWQSk4hE/view?usp=sharing")
