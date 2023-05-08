@@ -13,9 +13,9 @@ const Home = () => {
       
       <div className="intro">
       
-        <img src={Me} alt="" className='home__img' />
+        <img src={Me} alt=""  className='home__img home-img' />
        
-        <h1 className="home__name">Priyanka Dora</h1>
+        <h1 className="home__name" id="user-detail-name" >Priyanka Dora</h1>
         
         <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=500&color=teal&width=600&height=80&lines=I'm+Full+Stack+Developer" alt="Typing SVG" id='moving'/>
         

@@ -16,8 +16,8 @@ const Contact = () => {
 
         <h3 className="contact__title">Let talk about everything!</h3>
         <p className="contact__details">Send me an email.👋</p>
-        <p>Email : dora1234priyanka@gmail.com</p>
-        <p>Contact no :+91-6370503243</p>
+        <p  id="contact-email" >Email : dora1234priyanka@gmail.com</p>
+        <p id="contact-phone" >Contact no :+91-6370503243</p>
         <HeaderSocials/>
         <img src="https://media.tenor.com/0ceXa2Dg8ywAAAAC/email-sent.gif" alt="sent img" />
        
