@@ -26,6 +26,7 @@ const Sidebar =() =>{
                         <li className='nav__item'>
                         
                         <Link 
+                        className="nav__link "
                         to="home"
                         spy={true}
                         smooth={true}
@@ -35,16 +36,15 @@ const Sidebar =() =>{
                         
                         </Link>
                             
-
-                        <p className="hide"   class="nav-link home" >Home</p>
+                        <p class="nav-link home">Home</p>
+                        <p className="hide">Home</p>
                         </li>
 
                         <li className='nav__item'>  
                             
                         <Link
-                        class="nav-link about"
+                        className="nav__link"
                         to="about"
-                        
                          spy={true}
                         smooth={true}
                         offset={-70}
@@ -54,7 +54,8 @@ const Sidebar =() =>{
                               
 
                         <i className="icon-user-following"></i>
-                        </Link>
+                            </Link>
+                        <p class="nav-link about">About</p>
                         <p className="hide">About</p>
                         </li>
 
@@ -68,14 +69,15 @@ const Sidebar =() =>{
                         offset={-70}
                         duration={400}>
                         <i className="icon-graduation"></i>
-                        </Link>
+                            </Link>
+                             <p>Education</p>
                         <p className="hide">Education</p>
                         </li>
 
                      <li className='nav__item'>
                         
                     <Link
-                        class="nav-link projects"
+                        className="nav__link"
                         to="services"
                          spy={true}
                         smooth={true}
@@ -86,20 +88,22 @@ const Sidebar =() =>{
                     <i className="icon-briefcase"></i>
                     
                     
-                    </Link>
+                            </Link>
+                    <p class="nav-link projects">Projects</p>
                     <p className="hide">Projects</p>
                     </li>
                   
                     <li className='nav__item'>
                     <Link
-                        class="nav-link skills"
+                        className="nav__link"
                         to="skills"
                          spy={true}
                         smooth={true}
                         offset={-70}
                         duration={400}>
                     <i className="icon-layers"></i>
-                    </Link>
+                            </Link>
+                    <p class="nav-link skills">Skills</p>
                     <p className="hide">Skills</p>
                     </li>
 
@@ -113,13 +117,14 @@ const Sidebar =() =>{
                         duration={400}>
                     <i className="icon-note"></i>
                     
-                    </Link>
+                            </Link>
+                             <p>Github</p>
                     <p className="hide">Github</p>
                     </li>
 
                     <li className='nav__item'>
                     <Link
-                        class="nav-link contact"
+                        className="nav__link"
                         to="contact"
                          spy={true}
                         smooth={true}
@@ -127,20 +132,22 @@ const Sidebar =() =>{
                         duration={400}>
                        <i className="icon-bubble"></i>
                     
-                    </Link>
+                            </Link>
+                    <p class="nav-link contact">Contact</p>
                     <p className="hide">Contact</p>
                        </li>
                         
                         
                        <li className='nav__item'>
                         
-                       <a href={pri} class="nav-link resume" id='download' download>
+                       <a href={pri} className='nav__link' id='download' download>
                         <i className="icon-link" onClick={
                             ()=>{
                                 window.open("https://drive.google.com/file/d/12NcrGfaNv56WmDUljl9D2ReTsWQSk4hE/view?usp=sharing")
                             }
                         }></i>
-                        </a>
+                            </a>
+                        <p class="nav-link resume">Resume</p>
                         <p className="hide">Resume</p>
                        </li>
                        
@@ -158,3 +165,5 @@ const Sidebar =() =>{
 
 
 export default Sidebar
+
+
