@@ -26,7 +26,7 @@ const Stats =() =>{
             </a>
                 </div>
                 
-        <div className='lang_stats' id="github-top-langs">
+        <div className='lang_stats' >
            
             <a href="https://github.com/priyankadora20" target="_blank">
                 <img className='lang_st_img statsimg' id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=priyankadora20&
