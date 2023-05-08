@@ -5,7 +5,7 @@ import datas from "./datas";
 
 const Skills = () => {
   return (
-    <section  className="skills container section" >
+    <section  className="skills container section"   id="skills" >
       <h2 className="section__title grid"  style={{fontFamily:"cursive" }}>Tech Stack </h2>
       
     <div className="skills__list grid"> 

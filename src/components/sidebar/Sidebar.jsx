@@ -7,12 +7,13 @@ import pri from "../resumesOriginal/priyanka-dora-Resume.pdf";
 
 const Sidebar =() =>{
     return (
-        <aside className='aside'>
+        <aside className='aside' id="nav-menu" >
             <a href="#home" className="nav__logo">
 
-                <img className="nav__logonew" 
-                src={Me} 
-                alt="return to top" 
+            <img 
+            className="nav__logonew" 
+            src={Me} 
+            alt="return to top" 
                />
                 
             </a>
@@ -22,27 +23,36 @@ const Sidebar =() =>{
                     <ul className='nav__list'>
                         
                        
-                    <li className='nav__item'>
-                        <Link
-                        className="nav__link"
+                        <li className='nav__item'>
+                        
+                        <Link 
+                        className="nav__link "
                         to="home"
-                         spy={true}
+                        spy={true}
                         smooth={true}
                         offset={-70}
                         duration={400}>
                         <i className="icon-home"></i>
+                        
                         </Link>
+                            
+
                         <p className="hide">Home</p>
                         </li>
 
-                        <li className='nav__item'>   
+                        <li className='nav__item'>  
+                            
                         <Link
                         className="nav__link"
                         to="about"
                          spy={true}
                         smooth={true}
                         offset={-70}
-                        duration={400}>
+                                duration={400}
+                            
+                            >
+                              
+
                         <i className="icon-user-following"></i>
                         </Link>
                         <p className="hide">About</p>
