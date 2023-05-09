@@ -23,26 +23,27 @@ const Sidebar =() =>{
                     <ul className='nav__list'>
                         
                        
-                        <li className='nav__item'>
+                        <li class='nav__item'>
                         
                         <Link 
-                        class="nav-link home"
+                        class="nav_link home"
                         to="home"
                         spy={true}
                         smooth={true}
                         offset={-70}
                         duration={400}>
                         <i className="icon-home"></i>
-                        
                         </Link>
-                        <p>Home</p> 
-                        
+                            
+
+                        <p class="nav-link home">Home</p>
                         </li>
 
+                        
                         <li className='nav__item'>  
                             
                         <Link
-                        class="nav-link about"
+                        className="nav__link"
                         to="about"
                          spy={true}
                         smooth={true}
@@ -53,8 +54,9 @@ const Sidebar =() =>{
                               
 
                         <i className="icon-user-following"></i>
-                        </Link>
-                        <p  class="nav-link about" >About</p>
+                            </Link>
+                            
+                        <p className="hide">About</p>
                         </li>
 
                         <li className='nav__item'>  
@@ -155,4 +157,6 @@ const Sidebar =() =>{
     )
 }
 
+
 export default Sidebar
+
