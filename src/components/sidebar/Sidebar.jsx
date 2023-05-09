@@ -55,6 +55,8 @@ const Sidebar =() =>{
 
                         <i className="icon-user-following"></i>
                             </Link>
+
+                            
                             
                         <p className="hide nav-link about">About</p>
                         </li>
