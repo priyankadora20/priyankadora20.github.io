@@ -19,7 +19,7 @@
     row-gap: 0.2rem;
 
 }
-.nav__link {
+.nav-link {
     font-size:1.5rem;
     color:var(--title-color);
     font-weight: var(--font-bold);
@@ -40,7 +40,7 @@
 .hide{
     display:none;
 }
-.nav__link:hover +.hide{
+.nav-link:hover +.hide{
     margin-left: 10px;
  
     display:inline;

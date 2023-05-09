@@ -35,9 +35,8 @@ const Sidebar =() =>{
                         <i className="icon-home"></i>
                         
                         </Link>
-                            
-
-                        <p  class="nav-link home">Home</p>
+                        <p>Home</p> 
+                        
                         </li>
 
                         <li className='nav__item'>  
