@@ -26,7 +26,7 @@ const Sidebar =() =>{
                         <li class='nav__item'>
                         
                         <Link 
-                        class="nav_link home"
+                        class="nav__link"
                         to="home"
                         spy={true}
                         smooth={true}
@@ -36,7 +36,7 @@ const Sidebar =() =>{
                         </Link>
                             
 
-                        <p class="nav-link home">Home</p>
+                        <p class="hide nav-link home">Home</p>
                         </li>
 
                         
