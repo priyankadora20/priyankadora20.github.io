@@ -137,7 +137,7 @@ const Sidebar =() =>{
                        <a href={pri} className='nav__link' id='download' download>
                         <i className="icon-link" onClick={
                             ()=>{
-                                window.open("https://drive.google.com/file/d/12NcrGfaNv56WmDUljl9D2ReTsWQSk4hE/view?usp=sharing")
+                                window.open("https://drive.google.com/file/d/11xSP3xvnaK_HagVd-QEJPeHgcojFmQ5B/view?usp=sharing")
                             }
                         }></i>
                         </a>
